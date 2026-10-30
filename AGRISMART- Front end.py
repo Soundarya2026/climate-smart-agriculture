@@ -17,7 +17,7 @@ def init_db():
             farmer TEXT NOT NULL,
             area REAL NOT NULL,
             production REAL NOT NULL,
-            status TEXT DEFAULT 'Growing'
+            status TEXT DEFAULT 'sowing the crops'
         )
     """)
 
@@ -34,7 +34,7 @@ def init_db():
             ("Rice", "Arun", 5.5, 120, "Growing"),
             ("Wheat", "Kumar", 3.0, 80, "Harvested"),
             ("Tomato", "Ravi", 2.5, 60, "Growing"),
-            ("Maize", "Priya", 4.0, 95, "Growing")
+            ("Maize", "shalin", 4.0, 95, "Growing")
         ])
 
     conn.commit()
