@@ -1,0 +1,11 @@
+body { background:#f5f8f4; color:#203126; }
+.hero { background:linear-gradient(120deg,#14532d,#3f8f4c); }
+.card,.stat { border:1px solid #e3ebe2; border-radius:16px; box-shadow:0 5px 20px rgba(22,55,30,.05); background:white; }
+.stat { padding:20px; height:100%; }
+.stat small { color:#65766a; text-transform:uppercase; letter-spacing:.05em; }
+.stat h2 { margin:8px 0 0; color:#198044; font-weight:700; }
+form p { margin-bottom:1rem; }
+form p label { display:block; font-weight:600; margin-bottom:.3rem; }
+form p input, form p select, form p textarea { width:100%; padding:.55rem; border:1px solid #ccd8cd; border-radius:8px; }
+.helptext { display:block; color:#68776b; font-size:.85rem; }
+.errorlist { color:#b42318; }
