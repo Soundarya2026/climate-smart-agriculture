@@ -17,4 +17,5 @@ urlpatterns = [
     path("control-room/", views.admin_dashboard, name="admin_dashboard"),
     path("control-room/farmers/", views.admin_farmers, name="admin_farmers"),
     path("control-room/reports/", views.admin_reports, name="admin_reports"),
+    path("control-room/reports/", views.admin_reports, name="admin_reports")
 ]
